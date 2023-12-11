@@ -1,35 +1,34 @@
-# Preditor de Infarto Cardíaco - MVP
+# Prevencao de Infarto- MVP
+
+O ataque cardíaco é uma condição séria que atinge indivíduos de todas as faixas etárias em todo o mundo, constituindo uma causa crucial de mortalidade global.
+
+O efeito do infarto cardíaco na saúde pública é considerável, necessitando de ações preventivas para minimizar seu impacto. Incorporar hábitos saudáveis, como uma dieta balanceada, exercícios regulares e controle dos fatores de risco, é fundamental para evitar possíveis complicações.
+
+Este projeto passou por um processo de criação de um modelo de machine learning em um notebook no Google Colab, que pode ser encontrado [neste link](https://colab.research.google.com/drive/15usZWOn5Vfu4lidAp7IPTO1PTUuEkVN2).
 
 
-O infarto cardíaco, conhecido como ataque cardíaco, é uma grave condição que afeta pessoas de todas as idades, representando uma importante causa de morbidade e mortalidade global. 
-Este evento ocorre quando o fornecimento de sangue para uma parte do músculo cardíaco é bloqueado, resultando em danos irreversíveis.
+A questão foi tratada como um procedimento de categorização, envolvendo etapas de modelagem, inferência, formulação e avaliação de modelos.
 
-O impacto do infarto cardíaco na saúde pública é significativo, exigindo medidas preventivas para reduzir sua incidência. 
-Adotar bons hábitos de vida, como alimentação saudável, prática regular de exercícios e controle de fatores de risco, é crucial para prevenir complicações.
+Os dados foram submetidos a processos de normalização e ajuste de hiperparâmetros, destacando-se que o Naive Bayes apresentou a melhor acurácia. Subsequentemente, foi gerado um arquivo pkl contendo o modelo treinado, o qual foi integrado ao backend do sistema para servir como um modelo capacitado para previsões.
 
-Este projeto, visando a prevenção, passou por um processo de criação de um modelo de machine learning utilizando o dataset disponível [neste link](https://github.com/RodrigoProcopio/CAD_Prediction_Database). 
-O problema foi abordado como um processo de classificação, com modelagem, inferência, criação e avaliação de modelos.
+Ao disponibilizar informações personalizadas, busca-se conscientizar sobre a relevância da análise de riscos individuais e incentivar a adoção de um modo de vida saudável. O propósito do projeto é contribuir para o desenvolvimento de uma sociedade mais saudável e resistente diante das condições cardiovasculares.
 
-Os dados passaram por normalização e ajustes de hiperparâmetros, sendo que o modelo com melhor acurácia foi o Naive Bayes. 
-Posteriormente, um arquivo pkl do modelo treinado foi gerado e incorporado ao backend deste sistema, servindo como modelo treinado para as predições.
-
-Ao fornecer informações personalizadas, busca-se conscientizar sobre a importância da avaliação de riscos individuais e promover a adoção de um estilo de vida saudável. 
-O projeto visa contribuir para uma sociedade mais saudável e resiliente diante dessa condição cardiovascular.
 
 ## Descrição
 
-O sistema permite que os usuários respondam um questionário que visa obter dados sobre: Idade, Sexo, Colesterol, Batimento cardíaco, Diabetes, Histórico na família, Fumante, Obesidade,
-Consumo de álcool, Dieta, Problema cardíaco, Uso de medicação, Nível de estresse, Triglicerídeos, Atividade física na semana, Horas de sono.
+O sistema permite que os usuários respondam um questionário que visa obter dados sobre: Idade, Sexo, Colesterol, Batimento cardíaco, Diabetes, Histórico na família, Fumante, Obesidade,Consumo de álcool, Dieta, Problema cardíaco, Uso de medicação, Nível de estresse, Triglicerídeos, Atividade física na semana, Horas de sono.
 
 Com esses dados é possível realizar uma predição de risco de infarto cardíaco, utilizando o modelo de machine learning Naive Bayes (NB). 
 
-O notebook no Google Colab pode ser encontrado [aqui](https://colab.research.google.com/drive/1ZWDelNTwBCxxQhLnRLcA90jnO9474fxV?usp=sharing).
+O dataset utilizado para o projeto pode ser encontrado [aqui](https://github.com/gabrigon0706/Prevencao_Infarto_Database).
 
-O vídeo sobre projeto pode ser encontrado [aqui](https://www.youtube.com/watch?v=X-GpuFiQmlg).
+O notebook no Google Colab pode ser encontrado [aqui](https://colab.research.google.com/drive/15usZWOn5Vfu4lidAp7IPTO1PTUuEkVN2).
 
-O back-end pode ser encontrado [aqui](https://github.com/RodrigoProcopio/MVP_Predicao_Infarto_Cardiaco/tree/main/MVP_Predicao_Infarto_Cardiaco_API).
+O vídeo sobre projeto pode ser encontrado [aqui]().
 
-O front-end pode ser encontrado [aqui](https://github.com/RodrigoProcopio/MVP_Predicao_Infarto_Cardiaco/tree/main/MVP_Predicao_Infarto_Cardiaco_Front).
+O back-end pode ser encontrado [aqui](https://github.com/gabrigon0706/MVP_Prevencao_Infarto_Main/tree/main/MVP_Prevencao_Infarto_API).
+
+O front-end pode ser encontrado [aqui](https://github.com/gabrigon0706/MVP_Prevencao_Infarto_Main/tree/main/MVP_Prevencao_Infarto_Front).
 
 
 ## Como Usar
@@ -55,18 +54,3 @@ O front-end pode ser encontrado [aqui](https://github.com/RodrigoProcopio/MVP_Pr
 ## Recursos
 
 - Este projeto utiliza HTML, CSS e JavaScript para fornecer as funcionalidades básicas.
-
-## Notas de Versão
-
-### Versão 1.0.0 (novembro/2023)
-
-- Funcionalidade de inserir dados através de um questionário.
-- Gerar uma predição.
-   
-## Autor
-
-Este projeto foi desenvolvido por Rodrigo Procópio e pode ser encontrado no [GitHub](https://github.com/RodrigoProcopio).
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](https://github.com/RodrigoProcopio/MVP_Predicao_Infarto_Cardiaco/blob/main/MVP_Predicao_Infarto_Cardiaco_Front/LICENSE.md)
