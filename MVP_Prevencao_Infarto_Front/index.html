@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css"> 
+
+    <!-- Título da Página -->
+    <title>MVP Prevencao de Infarto</title>
+</head>
+
+<body>
+
+    <!-- Cabeçalho de informações do sistema -->
+    <header>
+        
+        <div class="title">
+            <h2>Prevenção de Infarto</h2>
+            <img style="width: 30px; height: 30px; padding: 10px;" src="img/coracao.svg" alt="" srcset="">
+        </div>
+        
+    </header>
+    
+    <!-- Opções para adicionar um novo item -->
+    <section class="newItem" id="formSection">
+        <!-- Seção para cada item -->
+        <div class="formItem" id="item1">
+            <label for="newItem1">Informe a idade?</label>
+            <input type="number" id="newItem1" placeholder="Idade" min="18" max="99">
+        </div>
+
+        <div class="formItem" id="item2" style="display: none;">
+            <label for="newItem2">Informe o sexo?</label>
+            <select id="newItem2">
+                <option value="" selected disabled>Selecione...</option>
+                <option value="1">Masculino</option>
+                <option value="0">Feminino</option>
+            </select>
+        </div>      
+
+        <div class="formItem" id="item3" style="display: none;">
+            <label for="newItem3">Qual é o nível de colesterol:</label>
+            <input type="number" id="newItem3" placeholder="Colesterol" min="120" max="400">
+        </div>
+
+        <div class="formItem" id="item4" style="display: none;">
+            <label for="newItem4">Qual é media batimento cardíaco em repouso:</label>
+            <input type="number" id="newItem4" placeholder="Batimento Cardíaco" min="40" max="110">
+        </div>
+
+        <div class="formItem" id="item5" style="display: none;">
+            <label for="newItem5">Possui diabetes?</label>
+            <select id="newItem5">
+                <option value="" selected disabled>Selecione...</option>
+                <option value="1">Sim</option>
+                <option value="0">Não</option>
+            </select>
+        </div>
+
+        <div class="formItem" id="item6" style="display: none;">
+            <label for="newItem6">Tem histórico de infarto cardíaco na família?</label>
+            <select id="newItem6">
+                <option value="" selected disabled>Selecione...</option>
+                <option value="1">Sim</option>
+                <option value="0">Não</option>
+            </select>
+        </div>
+
+        <div class="formItem" id="item7" style="display: none;">
+            <label for="newItem7">fumante?</label>
+            <select id="newItem7">
+                <option value="" selected disabled>Selecione...</option>
+                <option value="1">Sim</option>
+                <option value="0">Não</option>
+            </select>
+        </div>
+
+        <div class="formItem" id="item8" style="display: none;">
+            <label for="newItem8">É obeso?</label>
+            <select id="newItem8">
+                <option value="" selected disabled>Selecione...</option>
+                <option value="1">Sim</option>
+                <option value="0">Não</option>
+            </select>
+        </div>
+
+        <div class="formItem" id="item9" style="display: none;">
+            <label for="newItem9">Faz consumo de ácool com frequência?</label>
+            <select id="newItem9">
+                <option value="" selected disabled>Selecione...</option>
+                <option value="1">Sim</option>
+                <option value="0">Não</option>
+            </select>
+        </div>
+
+        <div class="formItem" id="item10" style="display: none;">
+            <label for="newItem10">Como é a alimentação?</label>
+            <select id="newItem10">
+                <option value="" selected disabled>Selecione...</option>
+                <option value="0">Saudável</option>
+                <option value="1">Normal</option>
+                <option value="2">Desregulada</option>
+            </select>
+        </div>
+
+        <div class="formItem" id="item11" style="display: none;">
+            <label for="newItem11">Algum problema cardíaco?</label>
+            <select id="newItem11">
+                <option value="" selected disabled>Selecione...</option>
+                <option value="1">Sim</option>
+                <option value="0">Não</option>
+            </select>
+        </div>
+
+        <div class="formItem" id="item12" style="display: none;">
+            <label for="newItem12">Faz uso de medicamento contínuo?</label>
+            <select id="newItem12">
+                <option value="" selected disabled>Selecione...</option>
+                <option value="1">Sim</option>
+                <option value="0">Não</option>
+            </select>
+        </div>
+
+        <div class="formItem" id="item13" style="display: none;">
+            <label for="newItem13">Indique a media de estresse diaria?</label>
+            <select id="newItem13">
+                <option value="" selected disabled>Selecione...</option>
+                <option value="0">0 (nada estressado)</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10 (muito estressado)</option>
+            </select>
+        </div>
+
+        <div class="formItem" id="item14" style="display: none;">
+            <label for="newItem14">Qual o valor de triglicerídeos?</label>
+            <input type="number" id="newItem14" placeholder="Triglicerídeos" min="30" max="800">
+        </div>
+
+        <div class="formItem" id="item15" style="display: none;">
+            <label for="newItem15">Quantos dias na semana realiza atividade física?</label>
+            <select id="newItem15">
+                <option value="" selected disabled>Selecione...</option>
+                <option value="0">0 (nenhum dia na semana)</option>
+                <option value="1">1 dia</option>
+                <option value="2">2 dias</option>
+                <option value="3">3 dias</option>
+                <option value="4">4 dias</option>
+                <option value="5">5 dias</option>
+                <option value="6">6 dias</option>
+                <option value="7">7 dias</option>
+            </select>
+        </div>
+
+        <div class="formItem" id="item16" style="display: none;">
+            <label for="newItem16">Quantas horas de sono por dia?</label>
+            <input type="number" id="newItem16" placeholder="Horas de Sono" min="4" max="10">
+        </div>
+    </section>
+
+    <!-- Nova seção para os botões Avançar, Voltar e Consultar -->
+    <section class="buttonSection">
+
+        <!-- Botão Voltar -->
+        <button onclick="prevItem()" class="Btn" id="backButton" style="display: none;">Voltar</button>
+
+        <!-- Botão Avançar -->
+        <button onclick="nextItem()" class="Btn" id="nextButton">Avançar</button>
+        
+        <!-- Botão Gerar Predição -->
+        <button onclick="generatePrediction()" class="Btn" id="predictionButton" style="display: none;">Gerar Predição</button>
+
+        <!-- Botão Fazer Nova Consulta -->
+        <button onclick="refreshPage()" class="Btn" id="refreshButton" style="display: none;">Fazer Nova Consulta</button>
+
+    </section>
+
+    <!-- Tabela para exibir os dados preenchidos -->
+    <table id="resultTable" style="display: none;">
+        <thead>
+            <tr>
+                <th>Idade</th>
+                <th>Sexo</th>
+                <th>Colesterol</th>
+                <th>Batimento cardíaco</th>
+                <th>Diabetes</th>
+                <th>Histórico na família</th>
+                <th>Fumante</th>
+                <th>Obesidade</th>
+                <th>Consumo de álcool</th>
+                <th>Dieta</th>
+                <th>Problema cardíaco</th>
+                <th>Uso de medicação</th>
+                <th>Nível de estresse</th>
+                <th>Triglicerídeos</th>
+                <th>Atividade física na semana</th>
+                <th>Horas de sono</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+        <!-- Mensagem de outcome -->
+    <div id="outcomeContainer" class="outcome-container" style="display: none;">
+        <div id="outcomeMessage"></div>
+    </div>    
+    
+    <!-- Script JavaScript -->
+    <script src="scripts.js"></script> <!-- Importa o arquivo de script JavaScript -->
+
+    <footer>
+        <div class="social-media">
+            As informações solicitadas gera resultado de risco de infarto com base nos dados forncecidos.
+            Este é um resultado estimatimado a partir dos dados fornecidos e não substitui a avaliação de um profissional de saúde.
+        </div>
+    </footer>
+
+</body>
+
+</html>
