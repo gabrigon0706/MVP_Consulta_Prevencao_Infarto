@@ -20,13 +20,15 @@ O sistema permite que os usuários respondam um questionário que visa obter dad
 
 Com esses dados é possível realizar uma predição de risco de infarto cardíaco, utilizando o modelo de machine learning Naive Bayes (NB). 
 
+O DataSet utilizado para o projeto pode ser encontrado [aqui](https://github.com/gabrigon0706/Prevencao_Infarto_Database).
+
 O notebook no Google Colab pode ser encontrado [aqui](https://colab.research.google.com/drive/15usZWOn5Vfu4lidAp7IPTO1PTUuEkVN2).
 
 O vídeo sobre projeto pode ser encontrado [aqui]().
 
-O back-end pode ser encontrado [aqui]().
+O back-end pode ser encontrado [aqui](https://github.com/gabrigon0706/MVP_Prevencao_Infarto_Main/tree/main/MVP_Prevencao_Infarto_API).
 
-O front-end pode ser encontrado [aqui]().
+O front-end pode ser encontrado [aqui](https://github.com/gabrigon0706/MVP_Prevencao_Infarto_Main/tree/main/MVP_Prevencao_Infarto_Front).
 
 ## Funcionalidade disponivel
 
