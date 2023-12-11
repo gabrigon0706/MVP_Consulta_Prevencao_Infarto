@@ -1,4 +1,4 @@
-# Preditor de Infarto Cardíaco - MVP
+# Prevencao de Infarto- MVP
 
 
 O ataque cardíaco é uma condição séria que atinge indivíduos de todas as faixas etárias em todo o mundo, constituindo uma causa crucial de mortalidade global.
@@ -14,7 +14,7 @@ Ao disponibilizar informações personalizadas, busca-se conscientizar sobre a r
 O projeto visa contribuir para uma sociedade mais saudável.
 
 
-O DataSet utilizado para o projeto pode ser encontrado [aqui](https://github.com/gabrigon0706/Prevencao_Infarto_Database).
+O dataset utilizado para o projeto pode ser encontrado [aqui](https://github.com/gabrigon0706/Prevencao_Infarto_Database).
 
 O notebook no Google Colab pode ser encontrado [aqui](https://colab.research.google.com/drive/15usZWOn5Vfu4lidAp7IPTO1PTUuEkVN2).
 
