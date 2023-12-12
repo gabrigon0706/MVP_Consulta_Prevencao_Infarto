@@ -80,8 +80,8 @@ Para obter a documentação completa desta API no estilo Swagger, acesse:
 
 ## Funcionalidade disponivel
 
-- Funcionalidade de inserir dados através de um questionário.
-- Gerar uma predição.
+- Funcionalidade de inserir dados através do formulario.
+- Gerar resultado com base no dados fornecidos.
    
 ## Autor
 
