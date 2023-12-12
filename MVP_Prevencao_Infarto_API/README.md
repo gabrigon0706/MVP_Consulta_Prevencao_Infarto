@@ -58,7 +58,7 @@ Para obter a documentação completa desta API no estilo Swagger, acesse:
 
   Faz a busca por um paciente cadastrado na base a partir do ID.
 
-- [POST] `/medicamento`
+- [POST] `/paciente`
 
   Faz a adição de um novo paciente na base de dados.
 
