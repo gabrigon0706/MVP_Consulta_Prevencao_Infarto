@@ -42,10 +42,10 @@ O front-end pode ser encontrado [aqui](https://github.com/gabrigon0706/MVP_Preve
    
 3. Navegação:
 - Utilize os botões "Avançar" e "Voltar" para navegar entre as seções.
-- O botão "Gerar Predição" aparecerá após o preenchimento de todas as informações.
+- O botão "Gerar Resultado" aparecerá após o preenchimento de todas as informações.
 
 4. Resultado e Mensagem:
-- Após clicar em "Gerar Predição", a tabela exibirá os dados inseridos.
+- Após clicar em "Gerar Resultado", a tabela exibirá os dados inseridos.
 - Uma mensagem de resultado também será exibida com base nas informações fornecidas.
 
 5. Fazer Nova Consulta:
