@@ -32,8 +32,8 @@ O front-end pode ser encontrado [aqui](https://github.com/gabrigon0706/MVP_Preve
 
 ## Funcionalidade disponivel
 
-- Funcionalidade de inserir dados através de um questionário.
-- Gerar uma predição.
+- Funcionalidade de inserir dados através do formulario.
+- Gerar um resultado a partir dos dados fornecidos.
    
 ## Autor
 
